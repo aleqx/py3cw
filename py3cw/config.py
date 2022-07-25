@@ -71,6 +71,7 @@ API_METHODS = {
         'ai_update': ('PATCH', '{id}/ai'),
         'manual_update': ('PATCH', '{id}/manual'),
         'get': ('GET', '{id}'),
+        'events': ('GET', '{id}/events'),
         'delete': ('DELETE', '{id}'),
         'disable': ('POST', '{id}/disable'),
         'enable': ('POST', '{id}/enable'),
